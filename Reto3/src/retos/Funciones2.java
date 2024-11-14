@@ -19,6 +19,7 @@ public class Funciones2 {
 		} while (Fecha1.isBefore(Fecha2.withDayOfMonth(1)));
 		double MediaDias=0;
 		MediaDias=TotalDias/ContadorDias;
+		
 	}
 	
 }
