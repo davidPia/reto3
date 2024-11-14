@@ -33,6 +33,7 @@ public class Funciones2 {
 					System.out.println(letra);
 				}else {
 					System.out.println(","+letra);
+					
 				}
 			}
 		}
