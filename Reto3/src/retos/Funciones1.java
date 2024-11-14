@@ -11,14 +11,13 @@ import java.util.Scanner;
 public class Funciones1 {
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
+
 		Scanner sc=new Scanner(System.in);
 		LocalDate fecha1=LocalDate.of(2024,03,22);
 		LocalDate fecha2=LocalDate.of(2024,05,26);
 		Funciones1.mismo_año(fecha1,fecha2, sc);
-=======
+
 		
->>>>>>> branch 'main' of https://github.com/davidPia/reto3.git
 
 	}
 	

@@ -6,9 +6,7 @@ import java.util.Scanner;
 public class Reto3 {
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
-	
-=======
+
 		Scanner sc=new Scanner(System.in);
 		LocalDate Fecha1 = Funciones.dimeFecha(sc, "introduce la primera fecha (dd/MM/yyyy)");
 		LocalDate Fecha2 =null;
@@ -20,7 +18,7 @@ public class Reto3 {
 		} while (!Fecha2.isAfter(Fecha1));
 		
 		
->>>>>>> branch 'main' of https://github.com/davidPia/reto3.git
+
 	}
 	
 
