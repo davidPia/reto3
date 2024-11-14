@@ -39,6 +39,18 @@ public class Funciones1 {
 				if(nombre.compareTo(primero)<0) {
 					primero=nombre;
 				}
+				for(int i=0;i<nombre.length();i++){
+					String vocales="aeiou";
+					String letra = nombre.substring(i,i+1);
+					
+					for(i=0;i<=5;i++) {
+					String vocal = vocales.substring(i,i+1);
+					if(letra.equalsIgnoreCase(vocal)){
+						
+					}
+					}
+				}
+
 				contador++;
 			}while(contador!=4);
 			System.out.println(nombre_f);
