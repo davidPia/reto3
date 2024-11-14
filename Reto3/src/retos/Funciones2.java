@@ -20,4 +20,5 @@ public class Funciones2 {
 		double MediaDias=0;
 		MediaDias=TotalDias/ContadorDias;
 	}
+	
 }

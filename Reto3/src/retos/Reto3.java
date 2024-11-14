@@ -15,6 +15,7 @@ public class Reto3 {
 				System.out.println("la segunda fecha debe ser posterior a la primera");
 			}
 		} while (!Fecha2.isAfter(Fecha1));
+		
 	}
 	
 
