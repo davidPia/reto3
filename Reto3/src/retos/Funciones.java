@@ -74,6 +74,7 @@ public class Funciones {
 			} catch (Exception ex) {
 				System.out.println("Introduce un nº correcto");
 			}
+			
 		} while (true);
 	}
 }
