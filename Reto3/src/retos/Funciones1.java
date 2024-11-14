@@ -28,7 +28,7 @@ public class Funciones1 {
 			int menor=7873894;
 			String nombre_f="";
 			String primero="zzzzzzz";
-			
+			String p_vocales="";
 			do {
 				String nombre=sc.nextLine();
 				int longitud=nombre.length();
@@ -43,10 +43,13 @@ public class Funciones1 {
 					String vocales="aeiou";
 					String letra = nombre.substring(i,i+1);
 					
-					for(i=0;i<=5;i++) {
+					for(i=0;i<vocales.length();i++) {
 					String vocal = vocales.substring(i,i+1);
 					if(letra.equalsIgnoreCase(vocal)){
-						
+						p_vocales=p_vocales.concat(vocal+"-");
+						if(i<vocales.length()-1) {
+							p_vocales=p_vocales.concat(vocal);
+						}
 					}
 					}
 				}
@@ -55,7 +58,7 @@ public class Funciones1 {
 			}while(contador!=4);
 			System.out.println(nombre_f);
 			System.out.println(primero);
-			
+			System.out.println(p_vocales);
 		}
 		
 		
