@@ -20,6 +20,7 @@ public class Reto3 {
 			Funciones1.mismo_año(Fecha1,Fecha2,sc);
 		}else {
 			Funciones2.MediaDiasMensuales(Fecha1, Fecha2);
+			
 		}
 	}
 	
